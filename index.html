@@ -1,0 +1,445 @@
+<!DOCTYPE html>         
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    <title>Food delivery</title>
+       </head>
+  <body>
+  
+    
+
+    <!-- Splash Screen -->
+    <div id="splash">
+      <div id="splash-content">
+        <div class="logo-text"> 
+          <h1>Belly<b>Full</b></h1>
+        </div>
+        <div id="splash-text"><h1>Eat food,<b>Be healthy</b></h1></div>
+      </div>
+    </div>
+  
+    <script>
+      // Hide the splash screen after 3 seconds
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          document.getElementById("splash").style.display = "none";
+          document.getElementById("main-content").style.display = "block";
+        }, 3000);
+      });
+    </script>
+
+    
+    <section class="menu">
+        <div class="nav">
+            <div class=" logo "> <h1>Belly<b>Full</b></h1></div>
+
+            <ul>
+                <li><a herf="active">Home</a></li>
+                <li><a herf="#">Menu</a></li>
+                <li><a herf="#">Service</a></li>
+                <li><a herf="#">About us</a></li>
+                <li><a herf="#">Gallery</a></li>
+            </ul>
+
+            <div class="search-container">
+              <div class="search-box">
+                <input 
+                  type="text" 
+                  class="search-input" 
+                  placeholder="Search here..." 
+                  onfocus="showDropdown()" 
+                  onblur="hideDropdown()"
+                >
+                <span class="search-icon">🔍</span>
+              </div>
+              <ul class="dropdown-list" id="dropdown">
+                <li>Special Foods</li>
+                <li>Desserts</li>
+                <li>Breakfast</li>
+                <li>Non-Veg</li>
+                <li>Veg</li>
+              </ul>
+            </div>
+          
+         
+          <script>
+           function showDropdown() {
+            const dropdown = document.getElementById('dropdown');
+            dropdown.style.display = 'block';
+          }
+          
+          function hideDropdown() {
+            const dropdown = document.getElementById('dropdown');
+            // Add a delay to allow the user to click on an option before it hides
+            setTimeout(() => {
+              dropdown.style.display = 'none';
+            }, 200);
+          }
+         
+          </script>
+          <div>
+          <button class="signin" onclick="window.location.href='login.html'">Sign in</button>
+
+            <button class="signup">Sign up</button>
+
+           </div>
+    </section>
+    
+    <section class="grid">
+        <div class="content">
+     <div class="content-left">
+        <div class="info">
+            <h2>Deliciousness served with a dash of love and <br>a sprimkle of care.</h2>
+            <p> Happiness is<br>Homemade........</p>
+
+        </div>
+        <button class="btn" onclick="window.location.href='explore.html'">Explore more</button>
+        
+     </div>
+        </div>
+        <h3 class="sam">Popular Items......</h3>
+     <div class="content-right">
+        <img src="C:\Users\HARIPRIYAN .A\Downloads\pexels-chanwalrus-958545.jpg" >
+        <img src="C:\Users\HARIPRIYAN .A\Downloads\pexels-catscoming-674574.jpg">
+        <img src="C:\Users\HARIPRIYAN .A\Downloads\pexels-samerdaboul-2233729.jpg">
+        <img src="C:\Users\HARIPRIYAN .A\Downloads\pexels-chanwalrus-1059943.jpg">
+        <img src="C:\Users\HARIPRIYAN .A\Downloads\pexels-chanwalrus-958546.jpg">
+       
+     </div>
+     </div>
+    </section>
+   
+    <section class="cat">
+       
+    <section>
+        <div class="card"> 
+      <div class="card-inner">
+        <div class="card-front">
+            <img src="C:\Users\HARIPRIYAN .A\Downloads\png-clipart-paradise-hotel-hyderabadi-biryani-hyderabadi-cuisine-indian-cuisine-kerala-biriyani-food-recipe-thumbnail.png">
+           
+   </div>
+   
+        <div class="card-back">
+
+           <div class="card-out">
+            <h3 class="card-title">Hyderabadi Biryani </h3>
+            <p class="card-text">A Royal Feast in Every Bite</p>
+            <footer>₹180</footer>
+            <button class="card-button">Order</button>
+          </div>
+          
+          
+         
+
+
+          
+    </div>
+  </div>
+</div>    
+    </section>
+
+    <section >
+       
+        <div class="card1"> 
+      <div class="card-inner1">
+        <div class="card-front1">
+          <img src="C:\Users\HARIPRIYAN .A\Downloads\png-clipart-barbecue-chicken-sajji-biryani-barbecue-barbecue-food-thumbnail.png">
+   </div>
+        <div class="card-back1">
+          <div class="card-out1">
+            <h3 class="card-title1">Barbecue Chicken  </h3>
+            <p class="card-text1">Smoky, Tender, and Flavor-Packed</p>
+            <footer>₹200</footer>
+            <button class="card-button1"> Order</button>
+          </div>
+          
+         
+    </div>
+  </div>
+</div>    
+    </section>
+
+    <section>
+       
+        <div class="card2"> 
+      <div class="card-inner2">
+        <div class="card-front2">
+          <img src= "C:\Users\HARIPRIYAN .A\Downloads\png-clipart-panna-cotta-italian-cuisine-dessert-cream-creme-caramel-dessert-frutti-di-bosco-food-thumbnail.png">
+   </div>
+        <div class="card-back2">
+          
+          <div class="card-out2">
+            <h3 class="card-title2">Italian Cuisine  </h3>
+            <p class="card-text2">A Sweet Taste of Italy</p>
+            <footer>₹80</footer>
+            <button class="card-button2">Order</button>
+          </div>
+    </div>
+  </div>
+</div>    
+</section>
+<section>
+        <div class="card3"> 
+      <div class="card-inner3">
+        <div class="card-front3">
+          <img src="C:\Users\HARIPRIYAN .A\Downloads\ven-pongal-recipe-1a.jpg" >
+   </div>
+        <div class="card-back3">
+          
+          <div class="card-out3">
+            <h3 class="card-title3">Ven Pongal </h3>
+            <p class="card-text3">Comfort in Every Bite </p>
+            <footer>₹60</footer>
+            <button class="card-button3">Order</button>
+          </div>
+    </div>
+  </div>
+</div>    
+    </section>
+  
+    </section>
+
+
+    <section class="cat1">
+    <section>
+      <div class="card4"> 
+    <div class="card-inner4">
+      <div class="card-front4">
+        <img src="C:\Users\HARIPRIYAN .A\Downloads\png-clipart-pancake-pancake-thumbnail.png" >
+ </div>
+      <div class="card-back4">
+        
+        <div class="card-out4">
+          <h3 class="card-title4">Pancakes </h3>
+          <p class="card-text4"> Fluffy, Sweet Comfort in Every Bite</p>
+          <footer>₹159</footer>
+          <button class="card-button4">Order</button>
+        </div>
+  </div>
+</div>
+</div>    
+  </section>
+
+     
+
+  <section>
+    <div class="card5"> 
+  <div class="card-inner5">
+    <div class="card-front5">
+      <img src="C:\Users\HARIPRIYAN .A\Downloads\png-clipart-california-roll-sashimi-sushi-gimbap-japanese-cuisine-sushi-food-recipe-thumbnail.png" >
+</div>
+    <div class="card-back5">
+      
+      <div class="card-out5">
+        <h3 class="card-title5">Sushi</h3>
+        <p class="card-text5">A Delicate, Flavorful Journey</p>
+        <footer> ₹199</footer>
+        <button class="card-button5">Order</button>
+      </div>
+</div>
+</div>
+</div>    
+</section>
+
+
+<section>
+  <div class="card6"> 
+<div class="card-inner6">
+  <div class="card-front6">
+    <img src="C:\Users\HARIPRIYAN .A\Downloads\png-clipart-thai-fried-rice-chinese-cuisine-chinese-fried-rice-spiced-rice-fried-rice-food-recipe-thumbnail.png" >
+</div>
+  <div class="card-back6">
+    
+    <div class="card-out6">
+      <h3 class="card-title6">Fried Rice </h3>
+      <p class="card-text6"> Flavorful, Savory, and Satisfying</p>
+      <footer>₹150</footer>
+      <button class="card-button6">Order</button>
+    </div>
+</div>
+</div>
+</div>    
+</section>
+
+    </section>
+  </section>
+
+
+
+  <section class="cat2">
+    
+<section>
+  <div class="card7"> 
+<div class="card-inner7">
+  <div class="card-front7">
+    <img src="C:\Users\HARIPRIYAN .A\Downloads\png-clipart-fries-on-plate-french-fries-potato-chip-fried-rice-frying-french-fries-food-recipe-thumbnail.png">
+</div>
+  <div class="card-back7">
+    
+    <div class="card-out7">
+      <h3 class="card-title7">French Fries </h3>
+      <p class="card-text7"> Crispy, Golden Perfection</p>
+      <footer>₹120</footer>
+      <button class="card-button7">Order</button>
+    </div>
+</div>
+</div>
+</div>    
+</section>
+
+
+
+<section>
+  <div class="card8"> 
+<div class="card-inner8">
+  <div class="card-front8">
+    <img src="C:\Users\HARIPRIYAN .A\Downloads\png-clipart-pizza-margherita-new-york-style-pizza-pizza-hut-pitsa-pati-pizza-food-recipe-thumbnail.png">
+</div>
+  <div class="card-back8">
+    
+    <div class="card-out8">
+      <h3 class="card-title8">Pizza</h3>
+      <p class="card-text8">A Slice of Heaven</p>
+      <footer>₹150</footer>
+      <button class="card-button8">Order</button>
+    </div>
+</div>
+</div>
+</div>    
+</section>
+
+  </section>
+  
+  <section class="cat3">
+    
+<section>
+  <div class="card9"> 
+<div class="card-inner9">
+  <div class="card-front9">
+    <img src="C:\Users\HARIPRIYAN .A\Downloads\png-clipart-flatbread-with-dip-dosa-chutney-indian-cuisine-crepe-idli-rice-food-recipe-thumbnail.png">
+  </div>
+  <div class="card-back9">
+    
+    <div class="card-out9">
+      <h3 class="card-title9">Dosa </h3>
+      <p class="card-text9">Crispy, Golden Delight</p>
+      <footer> ₹60</footer>
+      <button class="card-button9">Order</button>
+    </div>
+</div>
+</div>
+</div>    
+</section>
+
+
+  </section>
+  
+
+  <section>
+    <div class="container">
+      <h1>Cities with food delivery</h1>
+      <div class="city-list">
+        <a href="#">Order food online in Bangalore</a>
+        <a href="#">Order food online in Gurgaon</a>
+        <a href="#">Order food online in Hyderabad</a>
+        <a href="#">Order food online in Delhi</a>
+        <a href="#">Order food online in Mumbai</a>
+        <a href="#">Order food online in Pune</a>
+        <a href="#">Order food online in Kolkata</a>
+        <a href="#">Order food online in Chennai</a>
+        <a href="#">Order food online in Ahmedabad</a>
+        <a href="#">Order food online in Chandigarh</a>
+        <a href="#">Order food online in Jaipur</a>
+        <a href="#" class="show-more">Show More</a>
+      </div>
+  
+      <h1>Cities with grocery delivery</h1>
+      <div class="city-list">
+        <a href="#">Order grocery delivery in Bangalore</a>
+        <a href="#">Order grocery delivery in Gurgaon</a>
+        <a href="#">Order grocery delivery in Hyderabad</a>
+        <a href="#">Order grocery delivery in Delhi</a>
+        <a href="#">Order grocery delivery in Mumbai</a>
+        <a href="#">Order grocery delivery in Pune</a>
+        <a href="#">Order grocery delivery in Kolkata</a>
+        <a href="#">Order grocery delivery in Chennai</a>
+        <a href="#">Order grocery delivery in Ahmedabad</a>
+        <a href="#">Order grocery delivery in Chandigarh</a>
+        <a href="#">Order grocery delivery in Jaipur</a>
+        <a href="#" class="show-more">Show More</a>
+      </div>
+    </div>
+
+
+  </section>
+
+
+<footer class="footer">
+  <div class="footer-content">
+      <div class="logo-section">
+          <h2>Belly<b>Full</b></h2>
+          <p>© 2024 BellyFull Limited</p>
+      </div>
+      <div class="links-section">
+          <div class="links-column">
+              <h4>Company</h4>
+              <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Swiggy Corporate</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#">Swiggy One</a></li>
+                  <li><a href="#">Swiggy Instamart</a></li>
+                  <li><a href="#">Swiggy Dineout</a></li>
+                  <li><a href="#">Swiggy Genie</a></li>
+                  <li><a href="#">Minis</a></li>
+              </ul>
+          </div>
+          <div class="links-column">
+              <h4>Contact Us</h4>
+              <ul>
+                  <li><a href="#">Help & Support</a></li>
+                  <li><a href="#">Partner With Us</a></li>
+                  <li><a href="#">Ride With Us</a></li>
+              </ul>
+          </div>
+          <div class="links-column">
+              <h4>Available In</h4>
+              <ul>
+                  <li>Bangalore</li>
+                  <li>Gurgaon</li>
+                  <li>Hyderabad</li>
+                  <li>Delhi</li>
+                  <li>Mumbai</li>
+                  <li>Pune</li>
+                  <li>685 cities ></li>
+              </ul>
+          </div>
+          <div class="links-column">
+              <h4>Life at Swiggy</h4>
+              <ul>
+                  <li><a href="#">Explore With Swiggy</a></li>
+                  <li><a href="#">Swiggy News</a></li>
+                  <li><a href="#">Snackables</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="download-section">
+          <h4>For better experience, download the BellyFull app now</h4>
+          
+      </div>
+      <div class="social-links">
+          <a href="#">LinkedIn</a>
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+      </div>
+  </div>
+</footer>
+
+
+    
+</body>
+</html>
