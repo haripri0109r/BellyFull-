@@ -899,7 +899,7 @@ img:hover{
 }
 
 
-/*flip 4*/
+/*flip 5*/
 
 .cat1{
 display:flex;
@@ -1023,7 +1023,7 @@ filter: drop-shadow(3px 3px 8px#d5fb06 )
 
 
 
-/*flip5*/
+/*flip6*/
 .card5 {
   width: 300px;
   height: 200px;
@@ -1131,7 +1131,8 @@ filter: drop-shadow(3px 3px 8px#d5fb06 )
 .card-button5:hover {
   background-color: #60adff;
 }
-/*flip6*/
+/*flip7*/
+
 
 .card6 {
   width: 300px;
@@ -1166,7 +1167,7 @@ filter: drop-shadow(3px 3px 8px#d5fb06 )
   
   display: flex;
   align-items: center;
-  border: 1px solid #57d3d3 ;
+  border: 1px solid #aaf56a ;
   border-radius: 10px;
   justify-content: center;
   font-size: 24px;
@@ -1179,7 +1180,7 @@ filter: drop-shadow(3px 3px 8px#d5fb06 )
 }
 
 .card-back6 {
-  background-color: #aaf56a;
+  background-color: #84eded;
   display: flex;
   align-items: center;
   border: 1px solid #aaf56a;
@@ -1241,8 +1242,7 @@ filter: drop-shadow(3px 3px 8px#d5fb06 )
   background-color: #60adff;
 }
 
-
-/*flip6*/
+/*flip8*/
 
 
 .cat2{
@@ -1366,7 +1366,7 @@ filter: drop-shadow(3px 3px 8px#d5fb06 )
   
 
 
-  /*flip 7*/
+  /*flip 9*/
 
     
     
@@ -1479,7 +1479,7 @@ filter: drop-shadow(3px 3px 8px#d5fb06 )
     }
     
   
-  /*flip8*/
+  /*flip10*/
 
 
     
@@ -1592,7 +1592,7 @@ filter: drop-shadow(3px 3px 8px#d5fb06 )
       background-color: #60adff;
     }
     
-/*flip 10*/
+/*flip 11*/
 
 .card10 {
   width: 300px;
@@ -1704,7 +1704,7 @@ filter: drop-shadow(3px 3px 8px#d5fb06 )
 
 
     
-/*flip 11*/
+/*flip 12*/
 
 .card11 {
   width: 300px;
