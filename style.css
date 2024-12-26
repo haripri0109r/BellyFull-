@@ -11,6 +11,24 @@ body{
 
 
 
+/* Styles for tablets (768px or smaller) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Styles for mobile devices (480px or smaller) */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
       /* Full-screen splash container */
       #splash {
         position: fixed;
@@ -177,6 +195,7 @@ body{
     padding: 30px 0;
     color: #171717;
 
+
 }
 
 .nav .logo h1{
@@ -214,6 +233,7 @@ body{
    font-weight: 500;
    font-size: 17px;
    filter: drop-shadow(8px 8px 8px rgb(129, 250, 105));
+   transition: background 0.3s ease
 }
 
 button{
@@ -251,6 +271,7 @@ button{
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    transition: background 0.3s ease
    
 }
 
@@ -270,8 +291,8 @@ button{
     font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
-    filter: drop-shadow(2px 2px 4px  rgb(253, 240, 126));
-    color: rgb(250, 240, 96);
+    filter: drop-shadow(2px 2px 4px #d5fb06 );
+    color: #d5fb06 ;
 
 
 }
@@ -496,6 +517,48 @@ img:hover{
               background-color: #60adff;
             }
         
+
+            .order-now-btn {
+              padding: 15px 25px;
+              background-color: #28a745;
+              color: white;
+              border: none;
+              border-radius: 5px;
+              font-size: 16px;
+              cursor: pointer;
+              margin: 20px 0;
+            }
+        
+            .order-now-btn:hover {
+              background-color: #218838;
+            }
+        
+            /* Order Section Styles */
+            .order-section {
+              display: none; /* Hidden by default */
+              padding: 20px;
+              border: 1px solid #ddd;
+              border-radius: 5px;
+              background-color: #f9f9f9;
+              margin-top: 20px;
+              max-width: 400px;
+            }
+        
+            .order-item {
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 10px;
+              font-size: 18px;
+            }
+        
+            .dish-name {
+              font-weight: bold;
+            }
+        
+            .dish-rate {
+              color: #28a745;
+              font-weight: bold;
+            }
 
 /*flip 2*/
 
